@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgba(129, 129, 212, 0.753);
+            height: 64px;
+        }
+        nav{
+            display: flex;
+        }
+        .search{
+            margin-top: 14px;
+            margin-left:840px;
+            background-color: transparent;
+            
+        }
+        .search input{
+            border-radius: 10px;
+            background-color: white;
+            height: 35px;
+            width: 200px;
+            padding: 0 10px;
+        }
+        .btn{
+            padding: 10px 14px;
+            background-color: transparent;
+            border: 2px solid green;
+            color: green;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color: green;
+            cursor: pointer;
+            color: blue;
+            border-color: blue;
+        }
+        .h1{
+            letter-spacing: 5px;
+           margin-top: 18px;
+           margin-left: 10px;
+        }
+        body{
+            background-color: blue;
+        }
+        .someone{
+            background-color: white;
+            height: 300px;
+            width: 400px;
+            display: flex;
+            margin: 20px 100px;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .someone img{
+            border: 2px solid green;
+            border-radius: 10px;
+            height: 200px;
+            width: 200px;
+            margin: 10px 90px;
+         
+        }
+        .someone h1{
+            margin-left: 120px;
+        }
+        section{
+            display: flex;
+        }
+        .about{
+            background-color: white;
+margin-left: -64px;
+margin-top: 20px;
+height: 300px;
+width: 655px;
+padding: 20px;
+        }
+        .Add-Product h1{
+         text-align: center;
+         font-size: 40px;
+         font-weight: 5;
+        }
+        .about h1{
+            font-size: 50px;
+            font-weight: 50;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .name{
+            color: gray;
+            margin-left: 100px;
+        }
+        .Add-Product{
+            background-color: white;
+            height: 243px;
+            width: 1130px;
+            margin-left: 100px;
+            margin-top: 20px;
+           
+        }
+        #name{
+            background-color: white;
+height: 30px;
+width: 628px;
+margin-left: 267px;
+border: 2px solid gray;
+margin-top: 20px;
+padding: 5px;
+        }
+        .naam{
+margin-bottom: 30px;
+margin-top: 10px;
+        }
+        .btn1{
+background-color: blue;
+color: white;
+border-radius: 5px;
+height: 40px;
+margin-left: 810px;
+width: 100px;
+margin-top: 15px;
+        }
+        .Available-Products button{
+            background-color: blue;
+color: white;
+border-radius: 5px;
+height: 40px;
+
+width: 100px;
+
+        }
+        .Available-Products{
+            background-color: white;
+            height: 559px;
+            width: 1130px;
+            margin-top: 20px;
+            margin-left: 100px;
+            padding: 10px;
+            
+           
+        }
+        .h1{
+            text-align: center;
+        }
+        
+        .card1{
+            border: 2px solid gray;
+            
+        }
+        .card2{
+            border: 2px solid gray;
+          
+            
+        }
+        .card3{
+            border: 2px solid gray;
+           
+            
+        }
+        .cards{
+            padding: 132px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 class="h1">WINKELEN</h1>
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+
+        <main>
+            <section>
+                
+                    <div class="someone">
+                        <img src="image1.png" alt="">
+                        <h1>Mejar Kumar</h1>
+                    
+                </div>
+                <div class="about">
+<h1>About</h1>
+<div class="naam">
+Full Name:      <span class="name">Mejar Kumar</span>
+</div>
+<hr>
+<div class="naam">
+    Email:     <span class="name">Mxxx2003@gmail.com</span>
+    </div>
+    <hr>
+    <div class="naam">
+        Phone:    <span class="name">736xxxxxxx</span>
+        </div>
+        <hr>
+        <div class="naam">
+            Location:      <span class="name">Saharsa</span>
+            </div>
+           
+                </div>
+            </section>
+            <article>
+                <div class="Add-Product">
+<h1>Add Product</h1>
+<input type="text" name="name" id="name" placeholder="Name">
+<input type="text" name="name" id="name" placeholder="Price"> <br>
+<button class="btn1">Add Product</button>
+                </div>
+            </article>
+            <aside>
+                <div class="Available-Products">
+<h1 class="h1">Availble Products</h1>
+<div class="cards">
+    <span class="card1">
+        <img src="image1.png" alt="">
+        <h1>Card Title</h1>
+        <pre>
+Some quick example text to build
+on the card title and make up the
+bulk of the card's content.
+        </pre>
+        <button>Price:400</button>
+        <button>Order</button>
+    </span>
+    <span class="card2">
+        <img src="image1.png" alt="">
+        <h1>Card Title</h1>
+        <pre>
+Some quick example text to build
+on the card title and make up the
+bulk of the card's content.
+        </pre>
+        <button>Price:400</button>
+        <button>Order</button>
+    </span>
+    <span class="card3">
+        <img src="image1.png" alt="">
+        <h1>Card Title</h1>
+        <pre>
+Some quick example text to build
+on the card title and make up the
+bulk of the card's content.
+        </pre>
+        <button>Price:400</button>
+        <button>Order</button>
+    </span>
+</div>
+                </div>
+            </aside>
+        </main>
+    </header>
+</body>
+</html>
